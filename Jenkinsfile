@@ -3,7 +3,7 @@ def COLOR_MAP = [
     'FAILURE': 'danger',
     'UNSTABLE': 'danger'
 ]
-pipeline {
+pipeline { // testing webhook
   agent {
     label 'Maven-Build-Env' // Use the Maven slave node for this pipeline
   }
