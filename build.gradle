@@ -44,7 +44,7 @@ sonarqube {
 }
 
 // Nexus Upload
-//testing webhook x2
+//testing webhook xxx3
 publishing {
     publications {
         maven(MavenPublication) {
